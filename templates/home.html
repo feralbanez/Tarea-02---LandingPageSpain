@@ -1,0 +1,147 @@
+{% extends './base.html' %}
+
+<link rel ="stylesheet" href="{{url_for('static',filename='style.css')}}">
+<script type=" text/javascript" src="static/java.js"></script>
+
+{% block contents %}
+
+<script type=" text/javascript" src="static/java.js"></script>
+
+<!-- CAROUSEL -->
+<div class="titupag">
+<h2 id="inicio">Visita España, Te lo mereces!!</h2>
+</div> 
+
+    <div class="carousel">
+		
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <img src="../static/img/carousel1.png">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="../static/img/carousel2.png">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="../static/img/carousel3.png">
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+<!-- ESTADISTICAS -->
+
+ <section class="events">
+	<div class="title">
+		<h1 id="estad">¡Algunas curiosidades de España!!</h1>
+		<div class="line"></div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<img src="../static/img/img1.png" alt="">
+			<h4>El único desierto de Europa se encuentra en España</h4>
+			<p>En España se encuentra el único desierto declarado como tal en el continente europeo.</p>
+			<a href="https://es.wikipedia.org/wiki/Desierto_de_Tabernas" class="ctn">Learn More</a>
+		</div>
+		<div class="col">
+			<img src="../static/img/img2.png" alt="">
+			<h4>Sierra Nevada es la estación más alta de Europa</h4>
+			<p>Con 3.300 metros de altura sobre el nivel del mar, Sierra Nevada es la estación más alta de Europa.</p>
+			<a href="https://es.wikipedia.org/wiki/Sierra_Nevada_(Espa%C3%B1a)" class="ctn">Learn More</a>
+		</div>
+	</div>
+</section>
+
+<section class="explore">
+  <div class="explore-content">
+	<h1 id="about">¡Acerca de mi!</h1>
+	<div class="line"></div>
+	<p>Mi nombre es Fernando José Albanez Erazo, nací en El Salvador, San Salvador. Toda mi vida estudié en el Colegio Garcia Flamenco, graduado de bachiller del mismo. Actualmente estoy estudiando Ingenieria de Negocios, una materia de muchas matematicas, pero en la que, sin duda alguna, aprendemos a superarnos y encontrar lo que nos gusta verdaderamente. 
+		En un futuro espero trabajar para una gran multinacional, en areas de finanzas o algo que involucre logistica</p>
+	<a href="https://feralbanez.github.io/MiPortafolio-Fernando-Albanez/" class="ctn">Conoceme màs!</a>
+  </div>
+</section>
+
+<section class="tours">
+	<div class="row">
+		<div class="col content-col">
+			<h1 id="ttd">¡Que hacer en España!</h1>
+			<div class="line"></div>
+			<p>Escoger un destino suele ser dificil y nadie se quiere equivocar. Pero existen muchas paginas en las que puedes encontrar las mejores atracciones turisticas que se adapten a tu forma de disfrutar! Te dejare un link para que visites esta pagina que me ha resultado interesante!!</p>
+			<a href="https://javitour.com/atracciones-turisticas-en-espana/" class="ctn">Descubrelo aqui!</a>
+		</div>
+		<div class="col image-col">
+			<div class="image-gallery">
+				<img src="../static/img/img3.png" alt="">
+				<img src="../static/img/img4.png" alt="">
+				<img src="../static/img/img5.png" alt="">
+				<img src="../static/img/img6.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="footer">
+	<p>San Salvador, San Salvador, El Salvador | Phone:76448499 | Email: ferjose.albanez@gmail.com</p>
+	<p>Copyright © 2022 Fernando Albanez</p>
+</section>
+
+
+<div class="icon-bar">
+	<a href="https://github.com/feralbanez" class="facebook" target="feralbanez">
+	  GitHub <i class="fab fa-facebook-square"></i>
+	</a>
+	<a
+	  href="https://www.instagram.com/feralbanez_/"
+	  class="instagram"
+	  target="feralbanz"
+	>
+	  Instagram <i class="fab fa-instagram"></i>
+	</a>
+	<a href="https://wa.link/jgnrdi" class="telegram" target="feralbanez">
+	  WhatsApp <i class="fab fa-telegram-plane"></i>
+	</a>
+
+	<a
+	  href="https://www.youtube.com/channel/UCQg50_iKjKdmDmLBhxP8ARQ"
+	  class="youtube"
+	  target="feralbanez"
+	>
+	  Youtube <i class="fab fa-youtube-square"></i>
+	</a>
+
+
+</div>
+
+</body>
+</html>
+
+
+{% endblock %}
+

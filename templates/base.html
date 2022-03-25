@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel ="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<link rel ="stylesheet" href="{{url_for('static',filename='style.css')}}">  
+    <h1>
+        <body>
+            <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo">España</div>
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+            <li><a href="#inicio">Home</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#estad">Curiosities</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#ttd">Things To Do</a></li>
+            <li><a href="#cm">Contact Me</a></li>
+            </div>
+            </ul>
+            </nav>
+            </body>
+    </h1>
+
+    {% block contents %}{% endblock %}
+</html>
