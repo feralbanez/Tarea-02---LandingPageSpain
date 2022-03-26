@@ -22,7 +22,9 @@ li {
 }
 
 /* NAVBAR STYLING STARTS */
+
 .navbar {
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -225,7 +227,7 @@ section {
 }
 
 .line{
-  background-color: #ffd200
+  background-color: #000000
 }
 
 .title{
@@ -243,6 +245,8 @@ section {
 .titupag {
   font-size: 27px;
   text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 
@@ -324,7 +328,7 @@ p {
 }
 
 body {
-  background-color: #ffdd90;
+  background-color: #ffa04d;
 }
 
 .footer {
@@ -502,5 +506,140 @@ p {
   background: #040404;
 }
 
+.seccion-contacto {
+  background-color: rgb( 19, 22, 41);
 
+}
+.contacto-h h2{
+  margin-left: 50px;
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+  margin-bottom: 4px;
 
+}
+.contacto-h h3{
+  margin-left: 140px;
+  margin-top: 0;
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+
+}
+
+.contacto-h h3 {
+  margin-left: 60px;
+  margin-top: 0;
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+}
+
+.container-contact {
+  padding: 3em;
+  margin: 0 auto;
+}
+
+.container-contact img{
+  width: 700px;
+  height: 700px;
+  bottom: 0;
+  margin-left: 190px;
+  
+}
+
+.contacto-form h4{
+  color: rgb(0, 0, 0);
+  font-size: 3.9em;
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30 ww;
+  margin-top: 2em;    
+}
+
+.form input{
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid aliceblue;
+  color: aliceblue;
+}
+
+.form textarea{
+  height: 150px;
+  background: none;
+  color: aliceblue;
+  padding: 1.5em;
+  border: 1px solid aliceblue;
+  
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 250px;
+  background-color: #ffd200;
+}
+
+.footer-contenido h2{
+  font-size: 2.9em;
+  margin-left: 180px;
+}
+.footer-contenido h5{
+  
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 0.1px;
+}
+
+.social i{
+  font-size: 1.8em;
+}
+#submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: #ffd200;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px #ffd200;
+}
+
+#submit:hover{
+  background-color: rgb(255, 98, 0);
+  color: black;
+}
+
+.container-contact{
+  background-color: #f00822;
+  color: black;
+}
+
+.contacto-h{
+  background-color: #f00822;
+  color: black;
+}
+
+.form input {
+  color: #000000
+}
+
+.contacto-h {
+  text-align: center;
+}
+
+.contacto-form {
+  text-align: center;
+}

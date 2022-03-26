@@ -99,13 +99,31 @@
 	</div>
 </section>
 
+<div class="seccion-contacto">
+	<div class="contacto-h">
+	 <h3>  </h3> 
+	 <div class="divider"></div> 
+	</div>
+	<div class="container-contact" >
+		<div class="contacto-form">
+			<h4 id="cm">Mandanos tu feedback!!</h4>
+			<form class="form" action="{{ url_for('site.home') }}" method="post">
+				{{ form.hidden_tag() }}
+				{{ form.firstname.label}}
+				{{ form.firstname}}
+				{{ form.lastname.label}}
+				{{ form.lastname}}
+				{{ form.email.label}}
+				{{ form.email}}
+				{{ form.message.label}}
+				{{ form.message}}
+				<br>
+				{{ form.submit }}
+			</form>
+		</div>
+	</div>
 
-
-
-
-
-
-
+</div>
 
 <section class="footer">
 	<p>San Salvador, San Salvador, El Salvador | Phone:76448499 | Email: ferjose.albanez@gmail.com</p>
@@ -139,8 +157,11 @@
 
 </div>
 
+
+
 </body>
 </html>
+
 
 
 {% endblock %}
